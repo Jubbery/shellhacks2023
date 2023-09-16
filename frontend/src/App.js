@@ -1,9 +1,13 @@
-function App() {
+import * as React from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
+
+export default function App() {
   return (
-    <div className="App">
-      Hi
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <div className='App'>
+        Hi
+      </div>
+    </React.Fragment>
   );
 }
-
-export default App;
