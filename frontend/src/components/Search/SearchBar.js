@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import parse from 'autosuggest-highlight/parse';
 import { debounce } from '@mui/material/utils';
 
-// Move this to a env variable
+// Move this to an env variable
 const GOOGLE_MAPS_API_KEY = 'AIzaSyD6_WzijFKeIPkaaDvmN8MK1rXwaOBiE3U';
 
 function loadScript(src, position, id) {
@@ -25,7 +25,7 @@ function loadScript(src, position, id) {
 
 const autocompleteService = { current: null };
 
-export default function GoogleMaps({setCurrentLocation}) {
+export default function SearchBar({setCurrentLocation}) {
   const [value, setValue] = React.useState(null);
   const [inputValue, setInputValue] = React.useState('');
   const [options, setOptions] = React.useState([]);

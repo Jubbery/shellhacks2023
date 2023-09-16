@@ -112,3 +112,9 @@ a {
 .column {
   flex-direction: column;
 }
+
+/* ===== Search ===== */
+.search {
+  background: red;
+  margin-top: 7vh;
+}
